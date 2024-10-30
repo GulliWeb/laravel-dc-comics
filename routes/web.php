@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
+// Aggiungo una rotta per visualizzare la home
+Route::get('/home', function() {
+    return view('Supercars/pages.home');
 });

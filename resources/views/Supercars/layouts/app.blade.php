@@ -9,7 +9,7 @@
 <body>
     <!-- Includo il codice che andrò a scrivere nei file partials -->
     <!-- Header -->
-    @include('partials.header')
+    @include('Supercars/layouts/partials.header')
 
     <!-- Main -->
     <main>
@@ -17,6 +17,6 @@
     </main>
 
     <!-- Footer -->
-    @include('partials.footer')
+    @include('Supercars/Layouts/partials.footer')
 </body>
 </html>
