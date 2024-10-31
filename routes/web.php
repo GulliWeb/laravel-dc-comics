@@ -6,3 +6,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', function() {
     return view('Supercars/pages.home');
 });
+
+// Aggiungo la rotta per il mio file supercars/index.blade.php
+Route::get('/supercars', function(){
+    return view('supercars.index');
+}) -> name("supercars.index");
