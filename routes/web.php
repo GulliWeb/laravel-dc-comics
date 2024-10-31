@@ -9,5 +9,5 @@ Route::get('/home', function() {
 
 // Aggiungo la rotta per il mio file supercars/index.blade.php
 Route::get('/supercars', function(){
-    return view('supercars.index');
+    return view('Supercars/supercars.index');
 }) -> name("supercars.index");

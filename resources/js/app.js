@@ -1,8 +1,10 @@
-import './bootstrap';
+// Import Bootstrap JavaScript
+import 'bootstrap';
 
-import "~resources/scss/app.scss";
+// Import custom SCSS file
+import '../scss/app.scss';
+import '../scss/index.scss';
 
-//
 import.meta.glob([
     '../img/**'
-])
+]);
